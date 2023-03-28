@@ -20,143 +20,19 @@ body {
 #my-view {
     width: 100%;
     height: 100vh;
-    /* background-color: black; */
-    background: linear-gradient(90deg, #ffdf6b, #ff6a00);    /* background: url("vdmyview/myviewimg2.jpg")no-repeat center center/cover; */
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
-.my-view-vd video{
-    height: 100vh;
-}
-
-.v-circle-container {
-    width: 450px;
-    height: 450px;
-    border-radius: 500px;
-    background-color:red;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0px 0px 15px 8px red;
-}
-
-.my-view-container {
-    position: absolute;
-    left: 28%;
-    top: 10%;
-}
-/* Circle Image */
-
-.v-circle-pic {
+#my-view img{
     width: 100%;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-size: 100% 100vh;
+    opacity: 70%;
+    z-index: -1;
 }
-
-.v-circle-img {
-    background: url("imgmy/myViewCirclePic1.png")no-repeat center center/cover;
-    width: 100px;
-    height: 120px;
-    filter: invert(1);
-}
-
-.v-circle-img:hover {
-    transition: all 1s ease-in-out;
-    scale: 1.2;
-    cursor: none;
-}
-
-/* Circle Text */
-
-.v-circle-text {
-    width: 100%;
-
-}
-
-.v-circle-a {
-    text-decoration: none;
-    color: white;
-    border-radius: 1px;
-    padding: 0px 15px;
-    border-radius: 44px;
-    background-color:red;
-    box-shadow: 0px 0px 16px 1px red;
-}
-
-.v-circle-a:hover {
-    transition: all 1s;
-    color: white;
-    text-shadow: 0px 0px 10px black;
-}
-
-#v-circle-a-1 {
-    position: absolute;
-    top: 5%;
-    left: 12%;
-    /* background: linear-gradient(45deg, white, #0008ff); */
-}
-
-#v-circle-a-2 {
-    position: absolute;
-    top: 65%;
-    left: -22%;
-    font-size: 25px;
-    /* background: linear-gradient(45deg, white, #0008ff); */
-}
-
-#v-circle-a-3 {
-    position: absolute;
-    top: 29%;
-    left: 79%;
-    width: 39%;
-    font-size: 20px;
-    /* background: linear-gradient(45deg, #0008ff, white); */
-}
-
-#v-circle-a-4 {
-    position: absolute;
-    top: 35%;
-    left: -50%;
-    font-size: 35px;
-    /* background: linear-gradient(45deg, white, #0008ff); */
-}
-
-#v-circle-a-5 {
-    position: absolute;
-    top: 92%;
-    left: 63%;
-    font-size: 15px;
-    /* background: linear-gradient(45deg, #0008ff, white); */
-}
-
-#v-circle-a-6 {
-    position: absolute;
-    top: 66%;
-    left: 72%;
-    width: 61%;
-    font-size: 30px;
-    /* background: linear-gradient(45deg, #0008ff, white); */
-}
-
-#v-circle-a-7 {
-    position: absolute;
-    top: 5%;
-    left: 65%;
-    width: 19%;
-}
-
-#v-circle-a-8 {
-    position: absolute;
-    top: 96%;
-    left: 20%;
-    font-size: 11px;
-    /* background: linear-gradient(45deg, white, #0008ff); */
-}
-
 
 /* ----------------------- NAVIGATION SECTION ---------------------- */
 
@@ -168,15 +44,12 @@ body {
     justify-content: center;
     position: sticky;
     top: 0px;
-/* background: linear-gradient(90deg, #6b90ff, #0043ff);    box-shadow: 0px 0px 9px 1px black; */
-    background-color: #ff0000;
+    background-color: #545454;
 }
 
 .nav-left {
     width: 15%;
     height: 50px;
-    /* background-color: #004b91; */
-    /* background-color: black; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,11 +63,8 @@ body {
 .nav-right {
     width: 85%;
     height: 50px;
-    /* background-color: #196fc2; */
-    /* background-color:#4684d1 ; */
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     padding-left: 35%;
 }
 
@@ -256,6 +126,7 @@ body {
     height: 33vh;
     display: flex;
     justify-content: center;
+    margin-bottom: 4%;
 }
 
 .about-education {}
@@ -444,14 +315,27 @@ body {
     /* border: 2px solid black; */
 }
 
-.work-info-leftbox {
-    width: 45%;
+.work-pic{
+    width: 50%;
     height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
     border-radius: 2px;
 }
 
+.work-info-leftbox {
+    width: 90%;
+    height: 28vh;
+    border-radius: 2px;
+
+}
+
+
+
 #work-info-1 {
-    background: url("imgworkbg/workbg1.jpg")no-repeat center center/cover;
+    background: url("imgworkbg/workbg5.png")no-repeat center center/cover;
 }
 
 #work-info-2 {
@@ -482,7 +366,7 @@ body {
     text-decoration: none;
     font-size: 25px;
     color: black;
-    background: linear-gradient(90deg, #6b90ff, white);
+    background: linear-gradient(90deg, white, #4c4c4c);
     padding: 2px 10px;
     border-radius: 20px;
 }
@@ -490,8 +374,7 @@ body {
 .work-info-rightbox a:hover{
     transition: all 1s;
     scale: 1.1;
-    background: linear-gradient(90deg, white, #6b90ff);
-
+    background: linear-gradient(90deg, #4c4c4c, white);
 }
 
 /* -----------------------  CONTACT SECTION ---------------------- */
@@ -522,10 +405,10 @@ body {
 }
 
 .contact-box {
-    background: url("imgcontact/contactbg5.jpg")no-repeat center center/cover;
+    /* background: url("imgcontact/contactbg5.jpg")no-repeat center center/cover; */
     background-color: #ffffff00;
     width: 90%;
-    box-shadow: 0px 0px 7px 0px black;
+    /* box-shadow: 0px 0px 7px 0px black; */
     padding-top: 3%;
     border-radius: 3px;
     display: flex;
