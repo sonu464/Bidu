@@ -1,0 +1,187 @@
+@media(max-width:550px) and (min-width:325px) {
+
+
+    /* ----------------------- NAVIGATION SECTION ---------------------- */
+
+    #navigation {
+        justify-content: inherit;
+        /* padding-left: 10px; */
+    }
+
+    .nav-right {
+        display: none;
+    }
+
+
+    /* ------------- HEMBURGER SECTION ------------ */
+
+    .hemburger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 73%;
+        cursor: pointer;
+    }
+    
+    
+    .line {
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin-bottom: 3px;
+    }
+
+
+    /* ----------------------- MY VIEW SECTION ---------------------- */
+
+    #my-view {
+        background: url(imgmy/mainimg3.jpg)no-repeat center center/cover;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+        top: 0;
+        opacity: 70%;
+        z-index: -1;
+    }
+    
+
+#my-view img{
+    display: none;
+}
+
+/* ----------------------- ABOUT SECTION ---------------------- */
+
+.about-info-container {
+    margin-top: 10%;
+    padding: 0px 20px;
+}
+
+.about-heading p span {
+    font-size: 14px;
+}
+
+.about-info {
+    width: 100%;
+    height: inherit;
+}
+
+.about-user-info1 {
+    padding-right: 0%;
+}
+
+.about-box {
+    height: inherit;
+    margin-bottom: 15%;
+    flex-direction: column;
+}
+
+.about-master-pic {
+    height: inherit;
+    width: 100%;
+    margin-top: 7%;
+}
+.about-bca {
+    width: 100%;
+    padding-left: 0%;
+}
+
+.about-user {
+    font-size: 17px;
+}
+
+.about-box2 {
+    flex-wrap: wrap-reverse;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-user-res{
+    padding-right: 0%;
+    font-size: 14px;
+}
+
+
+/* ----------------------- SKILL SECTION ---------------------- */
+
+.about-box3-skill-item ul {
+    width: 85%;
+}
+
+.about-box3 {
+    margin-bottom: 10%;
+}
+
+
+/* ----------------------- WORK SECTION ---------------------- */
+
+.work-heading p span {
+    font-size: 15px;
+}
+
+.work-pic {
+    width: 100%;
+}
+
+.work-info-1 {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.work-info-rightbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2%;
+    width: 100%;
+    height: 15vh;
+    border-radius: 0px;
+}
+
+.work-info-rightbox a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 5px 9px;
+    border-radius: 2px;
+}
+
+
+
+
+
+
+/* ----------------------- CONTACT SECTION ---------------------- */
+
+.contact-heading p span {
+    font-size: 15px;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    gap: 1px;
+    margin-bottom: 10px;
+    margin-top: 6%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
