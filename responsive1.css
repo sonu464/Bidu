@@ -23,6 +23,15 @@
         margin-left: 73%;
         cursor: pointer;
     }
+
+   .hemburger1 {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 73%;
+        cursor: pointer;
+    }
     
     
     .line {
