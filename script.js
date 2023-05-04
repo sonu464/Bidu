@@ -7,7 +7,6 @@ function hem() {
   navigation.style.height="100vh";
   navigation.style.transition="all 1s";
   hemburger.style.display= "none";
-  cross.style.display= "flex";
 }
 
 
