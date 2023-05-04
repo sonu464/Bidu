@@ -1,13 +1,13 @@
 let hemburger = document.querySelector('.hemburger');
 let line = document.querySelector('.line');
 let navigation = document.getElementById('navigation');
-
+let cross = document.querySelector('.cross')
 function hem() { 
 
   navigation.style.height="100vh";
   navigation.style.transition="all 1s";
   hemburger.style.display= "none";
-  hemburger.element.classList.toggle("cross1");
+  cross.style.display= "block";
 }
 
 
