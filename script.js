@@ -9,3 +9,7 @@ function hem() {
   hemburger.style.display= "none";
   hemburger1.style.display= "flex";
 }
+
+function cros(){
+  navigation.style.height="50px";
+}
