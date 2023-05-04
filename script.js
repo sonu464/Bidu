@@ -8,9 +8,11 @@ function hem() {
   navigation.style.transition="all 1s";
   hemburger.style.display= "none";
   hemburger1.style.display= "flex";
-}
 
-function cros(){
+  function cros(){
   navigation.style.height="50px";
   navigation.style.transition="all 1s";
 }
+}
+
+
