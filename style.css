@@ -95,12 +95,8 @@ body {
  left: 3%;
 }
 
-.cross{
+#cross{
  display:none;
-}
-
-.cross1{
- display:block;
 }
 
 /* ----------------------- ABOUT SECTION ---------------------- */
