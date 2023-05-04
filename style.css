@@ -91,7 +91,8 @@ body {
 
 .hemburger{
  Position: fixed;
- top: 3%;
+ top: 2%;
+ left: 3%;
 }
 
 /* ----------------------- ABOUT SECTION ---------------------- */
