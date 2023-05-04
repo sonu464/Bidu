@@ -10,9 +10,8 @@ function hem() {
   hemburger1.style.display= "flex";
 }
 
-if(navigation.style.height="100vh"){
 function cros(){
   navigation.style.height="50px";
   navigation.style.transition="all 1s";
 }
-}
+
