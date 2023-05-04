@@ -5,4 +5,5 @@ function hem() {
 
   navigation.style.height="100vh";
   navigation.style.transition="all 1s";
+  console.log("ok");
 }
