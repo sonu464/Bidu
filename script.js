@@ -3,7 +3,6 @@ let line = document.querySelector('.line');
 let navigation = document.getElementById('navigation');
 let hemburger1 = document.querySelector('.hemburger1');
 function hem() { 
-
   navigation.style.height="100vh";
   navigation.style.transition="all 1s";
   hemburger.style.display= "none";
@@ -12,4 +11,5 @@ function hem() {
 
 function cros(){
   navigation.style.height="50px";
+  navigation.style.transition="all 1s";
 }
