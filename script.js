@@ -1,7 +1,7 @@
 let hemburger = document.querySelector('.hemburger');
 let line = document.querySelector('.line');
-
+let navigation = document.getElementById('navigation');
 function hem() { 
-  hemburger.style.height="100vh";
-  hemburger.style.transition="all 1s";
+  navigation.style.height="100vh";
+  navigation.style.transition="all 1s";
 }
