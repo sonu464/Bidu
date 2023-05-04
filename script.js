@@ -1,7 +1,7 @@
 let hemburger = document.querySelector('.hemburger');
 let line = document.querySelector('.line');
 let navigation = document.getElementById('navigation');
-let cross = document.querySelector('.cross')
+let cross = document.getElementById('cross');
 function hem() { 
 
   navigation.style.height="100vh";
