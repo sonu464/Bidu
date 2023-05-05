@@ -16,6 +16,5 @@ function hem() {
 function cros(){
   navigation.style.height= "50px";
   navigation.style.transition="all 1s";
-  navigation.classlist.toggle("navigation 1"); 
 }
 
