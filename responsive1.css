@@ -4,9 +4,12 @@
     /* ----------------------- NAVIGATION SECTION ---------------------- */
 
     #navigation {
-        height:50px;
         justify-content: inherit;
         /* padding-left: 10px; */
+    }
+
+    .nav-section{
+        height:100px;
     }
 
     .nav-right {
