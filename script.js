@@ -10,6 +10,7 @@ function hem() {
   hemburger.style.display= "none";
   hemburger1.style.display= "flex";
   navRight.style.display= "flex";
+  navRight.style.flexDirection= "column";
 }
 
 function cros(){
