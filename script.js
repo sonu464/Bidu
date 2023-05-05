@@ -7,7 +7,7 @@ navigation = '50px';
 
 
 function hem() { 
- if(navigation === '50px'){
+ if(navigation.style.display === 'flex'){
   navigation.style.height="100vh";
   navigation.style.transition="all 1s";
   hemburger.style.display= "none";
