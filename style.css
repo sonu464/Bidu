@@ -45,6 +45,7 @@ body {
     position: sticky;
     top: 0px;
     background-color: #545454;
+flex-direction:column;
 }
 
 .nav-left {
@@ -66,6 +67,10 @@ body {
     display: flex;
     align-items: center;
     padding-left: 35%;
+}
+
+.nav-right1 {
+    
 }
 
 .nav-right ul {
