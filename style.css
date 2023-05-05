@@ -36,6 +36,18 @@ body {
 
 /* ----------------------- NAVIGATION SECTION ---------------------- */
 
+
+#navigation {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    /*align-items: center;*/
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    background-color: #545454;
+}
+
 .nav-section {
     width: 100%;
     height: 50px;
