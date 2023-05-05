@@ -9,9 +9,9 @@ function hem() {
   navigation.style.transition="all 1s";
   hemburger.style.display= "none";
   hemburger1.style.display= "flex";
-  navRight.style.display= "";
+  navRight.style.display= "flex";
   navRight.style.flexDirection= "column";
-  navRight.element.classList.toggle("nav-right1");
+  navRight.element.classList.toggle("nav-right1")
 }
 
 function cros(){
