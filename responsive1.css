@@ -7,6 +7,9 @@
         justify-content: inherit;
         /* padding-left: 10px; */
     }
+    .navigation1{
+        height:50px;
+     }
 
     .nav-right {
         display: none;
