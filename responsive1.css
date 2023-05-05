@@ -4,6 +4,7 @@
     /* ----------------------- NAVIGATION SECTION ---------------------- */
 
     #navigation {
+        height:50px;
         justify-content: inherit;
         /* padding-left: 10px; */
     }
