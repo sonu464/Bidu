@@ -9,8 +9,8 @@ function hem() {
   navigation.style.transition="all 1s";
   hemburger.style.display= "none";
   hemburger1.style.display= "flex";
-  navRight.style.display= "flex";
-  navRight.style.flexDirection= "column";
+  // navRight.style.display= "";
+  // navRight.style.flexDirection= "column";
 }
 
 function cros(){
