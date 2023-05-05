@@ -3,9 +3,9 @@ let line = document.querySelector('.line');
 let navigation = document.getElementById('navigation');
 let hemburger1 = document.querySelector('.hemburger1');
 let navRight = document.querySelector('.nav-right');
+navigation = 50px;
 
-
-if(navigation.style.height === 50px){
+if(navigation === 50px){
 function hem() { 
   navigation.style.height="100vh";
   navigation.style.transition="all 1s";
