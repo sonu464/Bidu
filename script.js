@@ -14,8 +14,7 @@ function hem() {
  }
 
 function cros(){
-  // navigation.style.height= "50px";
+  navigation.style.display= "none";
   navigation.style.transition="all 1s";
-  navSection.classList.toggle("navigation1");
 }
 
