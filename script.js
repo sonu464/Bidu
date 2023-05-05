@@ -12,6 +12,7 @@ function hem() {
 }
 
 function cros(){
+  alert('this is alert');
   navigation.style.height= "50px";
   navigation.style.transition="all 1s";
 }
