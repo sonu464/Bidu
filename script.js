@@ -14,8 +14,8 @@ function hem() {
  }
 
 function cros(){
-  // navSection.style.height= "10vh";
-  navSection.style.display= "none";
+  navSection.style.height= "10vh";
+  // navSection.style.display= "none";
   navigation.style.transition="all 1s";
 }
 
