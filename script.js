@@ -6,14 +6,12 @@ let navRight = document.querySelector('.nav-right');
 
 
 
-function hem() { 
- if(navigation.style.height== "flex"){
+function hem() {
   navigation.style.height="100vh";
   navigation.style.transition="all 1s";
   hemburger.style.display= "none";
   hemburger1.style.display= "flex";
  }
-}
 
 function cros(){
   navigation.style.height= "50px";
