@@ -4,16 +4,17 @@ let navigation = document.getElementById('navigation');
 let hemburger1 = document.querySelector('.hemburger1');
 let navRight = document.querySelector('.nav-right');
 
+if(navigation.style.height="50px";){
 function hem() { 
   navigation.style.height="100vh";
   navigation.style.transition="all 1s";
   hemburger.style.display= "none";
   hemburger1.style.display= "flex";
 }
-
+}else{
 function cros(){
   alert('this is alert');
   navigation.style.height= "50px";
   navigation.style.transition="all 1s";
 }
-
+}
