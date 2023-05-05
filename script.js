@@ -3,7 +3,7 @@ let line = document.querySelector('.line');
 let navigation = document.getElementById('navigation');
 let hemburger1 = document.querySelector('.hemburger1');
 let navRight = document.querySelector('.nav-right');
-
+let navSection = document.querySelector('.nav-section');
 
 
 function hem() {
