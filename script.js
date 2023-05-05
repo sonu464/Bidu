@@ -8,7 +8,7 @@ let navRight = document.querySelector('.nav-right');
 
 function hem() {
   navigation.style.height="100vh";
-  navigation.style.transition="all 1s";iI
+  navigation.style.transition="all 1s";
   hemburger.style.display= "none";
   hemburger1.style.display= "flex";
  }
