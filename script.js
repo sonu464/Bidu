@@ -1,4 +1,4 @@
-let hemiburger = document.querySelector('.hemburger');
+let hemburger = document.querySelector('.hemburger');
 let line = document.querySelector('.line');
 let navigation = document.getElementById('navigation');
 let hemburger1 = document.querySelector('.hemburger1');
