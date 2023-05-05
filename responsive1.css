@@ -48,12 +48,23 @@
         display:none;
     }
     
-    .line {
+    .line,.line1,.line2 {
         width: 25px;
         height: 3px;
         background-color: white;
         margin-bottom: 3px;
     }
+
+    
+    .line1{
+        transform: rotate(45deg);
+        position: absolute;
+    }
+
+    .line2{
+        transform: rotate(305deg);
+    }
+  
 
 
     /* ----------------------- MY VIEW SECTION ---------------------- */
