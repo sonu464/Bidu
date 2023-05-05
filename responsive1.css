@@ -4,7 +4,7 @@
     /* ----------------------- NAVIGATION SECTION ---------------------- */
 
     #navigation {
-        justify-content: 50px;
+        justify-content: inherit;
         /* padding-left: 10px; */
     }
 
