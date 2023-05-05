@@ -36,13 +36,13 @@
   .hemburger{
         Position: fixed;
         top: 2%;
-        left: 6%;
+        left: 15%;
     }
 
     .hemburger1{
         Position: fixed;
         top: 2%;
-        left: 6%;
+        left: 15%;
     }
    #hemburger1{
         display:none;
