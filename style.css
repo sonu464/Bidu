@@ -45,7 +45,8 @@ body {
     justify-content: center;
     position: sticky;
     top: 0px;
-    background-color: #545454;
+   /* background-color: #545454;*/
+    background-color: blue;
 }
 
 .nav-left {
