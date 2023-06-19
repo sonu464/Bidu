@@ -4,8 +4,7 @@ body {
     font-family: 'Golos Text', sans-serif;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Source Sans Pro', sans-serif;
-    /* background: linear-gradient(90deg, #6b90ff, #0043ff); */ 
-
+    /* background: linear-gradient(90deg, #6b90ff, #0043ff); */
 }
 
 * {
@@ -26,7 +25,7 @@ body {
 
 }
 
-#my-view img{
+#my-view img {
     width: 100%;
     height: 100vh;
     background-size: 100% 100vh;
@@ -36,17 +35,15 @@ body {
 
 /* ----------------------- NAVIGATION SECTION ---------------------- */
 
-
 #navigation {
     width: 100%;
     height: 50px;
     display: flex;
-    /*align-items: center;*/
+    align-items: center;
     justify-content: center;
     position: sticky;
     top: 0px;
     background-color: #545454;
-    /*background-color: blue;*/
 }
 
 .nav-left {
@@ -70,12 +67,6 @@ body {
     padding-left: 35%;
 }
 
-.nav-right1 {
-    Position: absolute;
-    top: 10%;
-    left: 10%;
-}
-
 .nav-right ul {
     display: flex;
     gap: 1%;
@@ -95,6 +86,22 @@ body {
 .nav-right ul li a:hover {
     border-bottom: 1px solid black;
     color: black;
+}
+
+
+/* ------------- HEMBURGER SECTION ------------ */
+
+#hem-menu {
+    display: none;
+    position: fixed;
+    background-color: #545454;
+    width: 25%;
+    height: 79vh;
+    padding: 20% 10%;
+}
+
+.crosshem{
+    display: none;
 }
 
 
@@ -324,7 +331,7 @@ body {
     /* border: 2px solid black; */
 }
 
-.work-pic{
+.work-pic {
     width: 50%;
     height: 35vh;
     display: flex;
@@ -380,7 +387,7 @@ body {
     border-radius: 20px;
 }
 
-.work-info-rightbox a:hover{
+.work-info-rightbox a:hover {
     transition: all 1s;
     scale: 1.1;
     background: linear-gradient(90deg, #4c4c4c, white);
@@ -388,7 +395,7 @@ body {
 
 /* -----------------------  CONTACT SECTION ---------------------- */
 
-#contact{
+#contact {
     width: 100%;
     padding-top: 4%;
     margin-bottom: 5%;
@@ -400,9 +407,9 @@ body {
 
 .contact-container {}
 
-.contact-bg{
+.contact-bg {
     /* background-attachment: fixed; */
-    
+
     /* background-color: #000033; */
 
     width: 100%;
@@ -443,7 +450,7 @@ body {
     font-size: 24px;
 }
 
-.contact-fill{
+.contact-fill {
     width: 100%;
     display: flex;
     align-items: center;
@@ -455,7 +462,7 @@ body {
     /* background-color: blue; */
 }
 
-.contact-fill form{
+.contact-fill form {
     width: 100%;
     display: flex;
     align-items: center;
@@ -477,6 +484,7 @@ body {
     font-weight: 600;
     margin-bottom: 1px;
 }
+
 .contact-fill-info {
     border: 0;
     outline: 0;
@@ -486,11 +494,12 @@ body {
     background-color: white;
     border-bottom: 1px solid black;
 }
-#contact-message{
+
+#contact-message {
     height: 20vh;
 }
 
-#contact-btn{
+#contact-btn {
     margin-top: 10px;
 }
 
@@ -514,15 +523,11 @@ body {
 
 /* -----------------------  FOOTER SECTION ---------------------- */
 
-#footer{
+#footer {}
 
-}
+.footer-container {}
 
-.footer-container{
-
-}
-
-.footer-link{
+.footer-link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -542,7 +547,7 @@ body {
     border-radius: 44px;
 }
 
-.footer-link-circle{
+.footer-link-circle {
     cursor: pointer;
 }
 
@@ -564,7 +569,7 @@ body {
     height: 20px;
 }
 
-.footer-copy{
+.footer-copy {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -572,10 +577,9 @@ body {
     color: white;
 }
 
-.footer-copy a{
+.footer-copy a {
     padding: 10px;
     margin: 5px;
     color: white;
     text-decoration: none;
 }
-
