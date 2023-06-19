@@ -1,21 +1,15 @@
-let hemburger = document.querySelector('.hemburger');
-let line = document.querySelector('.line');
-let navigation = document.getElementById('navigation');
-let hemburger1 = document.querySelector('.hemburger1');
-let navRight = document.querySelector('.nav-right');
-let navSection = document.querySelector('.nav-section');
+let hemMenu = document.getElementById("hem-menu");
+let hemburger = document.querySelector(".hemburger");
+let crosshem = document.querySelector(".crosshem");
 
-
-function hem() {
-  navigation.style.height="100vh";
-  navigation.style.transition="all 1s";
-  hemburger.style.display= "none";
-  hemburger1.style.display= "flex";
- }
-
-function cros(){
-  navSection.style.height= "10vh";
-  // navSection.style.display= "none";
-  navigation.style.transition="all 1s";
+function hemLine() {
+    hemMenu.style.display = "block";
+    hemburger.style.display = "none";
+    crosshem.style.display = "block";
 }
 
+function cross() {
+    crosshem.style.display = "none";
+    hemburger.style.display = "block";
+    hemMenu.style.display = "none";
+}   
