@@ -181,7 +181,12 @@
     border-radius: 2px;
 }
 
-
+work-info-2 {
+    background: url(imgworkbg/workbg2.png) no-repeat center center/cover;
+    width: 96%;
+    height: 37vh;
+    border-radius: 2px;
+}
 
 
 
