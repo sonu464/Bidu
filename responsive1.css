@@ -1,168 +1,160 @@
-@media(max-width:550px) and (min-width:325px) {
+@media (max-width: 550px) and (min-width: 325px) {
+  /* ----------------------- NAVIGATION SECTION ---------------------- */
 
+  #navigation {
+    justify-content: inherit;
+    /* padding-left: 10px; */
+  }
 
-    /* ----------------------- NAVIGATION SECTION ---------------------- */
-
-    #navigation {
-        justify-content: inherit;
-        /* padding-left: 10px; */
-    }
-
-    .nav-right {
-        display: none;
-    }
-
-
-    /* ------------- HEMBURGER SECTION ------------ */
-
-    .hemburger {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        margin-left: 73%;
-        cursor: pointer;
-    }
-    
-    
-    .line {
-        width: 24px;
-        height: 2px;
-        background-color: white;
-        margin-bottom: 3px;
-    }
-
-    .h-line1, .h-line2 {
-        width: 16px;
-        height: 2px;
-        background-color: white;
-        margin-bottom: -2px;
-    }
-    
-    .h-line1{
-        rotate: 320deg;
-    }
-
-    .h-line2 {
-        rotate: 45deg;
-    }
-
-    .crosshem{
-        display: none;
-        margin-left: 73%;
-        
-    }
-
-    .hem-container ul li{
-        list-style: none;
-        margin: 10px 0px;
-    }
-
-    .hem-container ul li a{
-        list-style: none;
-        text-decoration: none;
-        color: white;
-    }
-
-
-    /* ----------------------- MY VIEW SECTION ---------------------- */
-
-    #my-view {
-        background: url(imgmy/mainimg3.jpg)no-repeat center center/cover;
-        width: 100%;
-        height: 100vh;
-        position: relative;
-        top: 0;
-        opacity: 70%;
-        z-index: -1;
-    }
-    
-
-#my-view img{
+  .nav-right {
     display: none;
-}
+  }
 
-/* ----------------------- ABOUT SECTION ---------------------- */
+  /* ------------- HEMBURGER SECTION ------------ */
 
-.about-info-container {
+  .hemburger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 73%;
+    cursor: pointer;
+  }
+
+  .line {
+    width: 24px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 3px;
+  }
+
+  .h-line1,
+  .h-line2 {
+    width: 16px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: -2px;
+  }
+
+  .h-line1 {
+    rotate: 320deg;
+  }
+
+  .h-line2 {
+    rotate: 45deg;
+  }
+
+  .crosshem {
+    display: none;
+    margin-left: 73%;
+  }
+
+  .hem-container ul li {
+    list-style: none;
+    margin: 10px 0px;
+  }
+
+  .hem-container ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+
+  /* ----------------------- MY VIEW SECTION ---------------------- */
+
+  #my-view {
+    background: url(imgmy/mainimg3.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    opacity: 70%;
+    z-index: -1;
+  }
+
+  #my-view img {
+    display: none;
+  }
+
+  /* ----------------------- ABOUT SECTION ---------------------- */
+
+  .about-info-container {
     margin-top: 10%;
     padding: 0px 20px;
-}
+  }
 
-.about-heading p span {
+  .about-heading p span {
     font-size: 14px;
-}
+  }
 
-.about-info {
+  .about-info {
     width: 100%;
     height: inherit;
-}
+  }
 
-.about-user-info1 {
+  .about-user-info1 {
     padding-right: 0%;
-}
+  }
 
-.about-box {
+  .about-box {
     height: inherit;
     margin-bottom: 15%;
     flex-direction: column;
-}
+  }
 
-.about-master-pic {
+  .about-master-pic {
     height: inherit;
     width: 100%;
     margin-top: 7%;
-}
-.about-bca {
+  }
+  .about-bca {
     width: 100%;
     padding-left: 0%;
-}
+  }
 
-.about-user {
+  .about-user {
     font-size: 17px;
-}
+  }
 
-.about-box2 {
+  .about-box2 {
     flex-wrap: wrap-reverse;
     display: flex;
     flex-direction: row;
-}
+  }
 
-.about-user-res{
+  .about-user-res {
     padding-right: 0%;
     font-size: 14px;
-}
+  }
 
+  /* ----------------------- SKILL SECTION ---------------------- */
 
-/* ----------------------- SKILL SECTION ---------------------- */
-
-.about-box3-skill-item ul {
+  .about-box3-skill-item ul {
     width: 85%;
-}
+  }
 
-.about-box3 {
+  .about-box3 {
     margin-bottom: 10%;
-}
+  }
 
+  /* ----------------------- WORK SECTION ---------------------- */
 
-/* ----------------------- WORK SECTION ---------------------- */
-
-.work-heading p span {
+  .work-heading p span {
     font-size: 15px;
-}
+  }
 
-.work-pic {
+  .work-pic {
     width: 100%;
-}
+  }
 
-.work-info-1 {
+  .work-info-1 {
     width: 100%;
     height: inherit;
     display: flex;
     flex-direction: column;
-}
+  }
 
-.work-info-rightbox {
+  .work-info-rightbox {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -171,33 +163,30 @@
     width: 100%;
     height: 15vh;
     border-radius: 0px;
-}
+  }
 
-.work-info-rightbox a {
+  .work-info-rightbox a {
     text-decoration: none;
     font-size: 20px;
     color: black;
     padding: 5px 9px;
     border-radius: 2px;
-}
+  }
 
-work-info-2 {
-    background: url(imgworkbg/workbg2.png) no-repeat center center/cover;
-    width: 96%;
-    height: 37vh;
-    border-radius: 2px;
-}
+  #work-info-1 {
+    width: 90%;
+  }
 
+  #work-info-2 {
+    width: 89%;
+  }
+  /* ----------------------- CONTACT SECTION ---------------------- */
 
-
-
-/* ----------------------- CONTACT SECTION ---------------------- */
-
-.contact-heading p span {
+  .contact-heading p span {
     font-size: 15px;
-}
+  }
 
-.contact-item {
+  .contact-item {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -205,7 +194,5 @@ work-info-2 {
     gap: 1px;
     margin-bottom: 10px;
     margin-top: 6%;
-}
-
-
+  }
 }
